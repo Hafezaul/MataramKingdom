@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "soal": "Siapakah pendiri Kesultanan Mataram Islam?",
+    "pilihan": ["Sultan Agung", "Panembahan Senopati", "Amangkurat I", "Raden Patah"],
+    "jawaban": 1,
+    "penjelasan": "Panembahan Senopati adalah pendiri Kesultanan Mataram Islam sekitar tahun 1586."
+  },
+  {
+    "id": 2,
+    "soal": "Perjanjian apa yang memecah Mataram Islam menjadi dua kerajaan pada 1755?",
+    "pilihan": ["Perjanjian Salatiga", "Perjanjian Giyanti", "Perjanjian Bongaya", "Perjanjian Batavia"],
+    "jawaban": 1,
+    "penjelasan": "Perjanjian Giyanti (1755) memecah Mataram Islam menjadi Kesultanan Yogyakarta dan Kasunanan Surakarta."
+  },
+  {
+    "id": 3,
+    "soal": "Kerajaan Islam pertama di Pulau Jawa adalah?",
+    "pilihan": ["Mataram Islam", "Banten", "Demak", "Cirebon"],
+    "jawaban": 2,
+    "penjelasan": "Kesultanan Demak adalah kerajaan Islam pertama di Pulau Jawa, didirikan sekitar 1475 oleh Raden Patah."
+  },
+  {
+    "id": 4,
+    "soal": "Sultan Agung dari Mataram Islam menyerang Batavia sebanyak berapa kali?",
+    "pilihan": ["1 kali", "2 kali", "3 kali", "4 kali"],
+    "jawaban": 1,
+    "penjelasan": "Sultan Agung menyerang Batavia dua kali, yaitu pada tahun 1628 dan 1629."
+  },
+  {
+    "id": 5,
+    "soal": "Kesultanan Aceh dikenal dengan julukan?",
+    "pilihan": ["Mutiara dari Timur", "Serambi Mekkah", "Tanah Rencong", "Bumi Iskandar Muda"],
+    "jawaban": 1,
+    "penjelasan": "Aceh dijuluki 'Serambi Mekkah' karena perannya sebagai pusat pendidikan dan penyebaran Islam."
+  },
+  {
+    "id": 6,
+    "soal": "Siapakah Sultan Aceh yang mencapai puncak kejayaan pada 1607–1636?",
+    "pilihan": ["Ali Mughayat Syah", "Sultan Iskandar Muda", "Sultanah Safiatuddin", "Sultan Iskandar Tsani"],
+    "jawaban": 1,
+    "penjelasan": "Sultan Iskandar Muda (1607–1636) adalah masa kejayaan Aceh, menjadi kerajaan terkuat di Asia Tenggara."
+  },
+  {
+    "id": 7,
+    "soal": "Kesultanan Ternate terkenal karena menguasai perdagangan?",
+    "pilihan": ["Lada dan emas", "Cengkeh dan pala", "Beras dan gula", "Kopi dan teh"],
+    "jawaban": 1,
+    "penjelasan": "Ternate menguasai perdagangan rempah-rempah terutama cengkeh yang sangat berharga di pasar dunia."
+  },
+  {
+    "id": 8,
+    "soal": "Sultan Hasanuddin dari Gowa-Tallo dijuluki?",
+    "pilihan": ["Singa dari Barat", "Ayam Jantan dari Timur", "Harimau Sulawesi", "Elang Nusantara"],
+    "jawaban": 1,
+    "penjelasan": "Sultan Hasanuddin dijuluki 'Ayam Jantan dari Timur' karena keberaniannya melawan VOC Belanda."
+  },
+  {
+    "id": 9,
+    "soal": "Masjid Agung Demak dibangun pada masa pemerintahan siapa?",
+    "pilihan": ["Sultan Trenggana", "Pati Unus", "Raden Patah", "Sunan Kalijaga"],
+    "jawaban": 2,
+    "penjelasan": "Masjid Agung Demak dibangun pada masa Raden Patah dengan bantuan Wali Songo, terutama Sunan Kalijaga."
+  },
+  {
+    "id": 10,
+    "soal": "Perjanjian Bongaya (1667) merugikan kerajaan mana?",
+    "pilihan": ["Mataram Islam", "Banten", "Aceh", "Gowa-Tallo"],
+    "jawaban": 3,
+    "penjelasan": "Perjanjian Bongaya (1667) sangat merugikan Kesultanan Gowa-Tallo setelah kalah dari VOC Belanda."
+  },
+  {
+    "id": 11,
+    "soal": "Siapakah pendiri Kesultanan Banten?",
+    "pilihan": ["Maulana Hasanuddin", "Sultan Ageng Tirtayasa", "Syarif Hidayatullah", "Fatahillah"],
+    "jawaban": 2,
+    "penjelasan": "Kesultanan Banten didirikan oleh Syarif Hidayatullah (Sunan Gunung Jati), salah satu Wali Songo."
+  },
+  {
+    "id": 12,
+    "soal": "Wali Songo yang berperan besar dalam pendirian Kesultanan Demak adalah?",
+    "pilihan": ["Sunan Ampel", "Sunan Giri", "Sunan Kalijaga", "Sunan Bonang"],
+    "jawaban": 2,
+    "penjelasan": "Sunan Kalijaga adalah salah satu Wali Songo yang paling berperan dalam penyebaran Islam dan pendirian Demak."
+  },
+  {
+    "id": 13,
+    "soal": "Ibu kota awal Kesultanan Mataram Islam adalah?",
+    "pilihan": ["Kartasura", "Plered", "Kotagede", "Karta"],
+    "jawaban": 2,
+    "penjelasan": "Kotagede adalah ibu kota pertama Kesultanan Mataram Islam yang didirikan oleh Panembahan Senopati."
+  },
+  {
+    "id": 14,
+    "soal": "Kesultanan Gowa-Tallo resmi memeluk Islam pada tahun?",
+    "pilihan": ["1511", "1570", "1605", "1667"],
+    "jawaban": 2,
+    "penjelasan": "Kesultanan Gowa-Tallo resmi memeluk Islam pada tahun 1605 di bawah Sultan Alauddin."
+  },
+  {
+    "id": 15,
+    "soal": "Sultan Banten yang paling gigih melawan VOC adalah?",
+    "pilihan": ["Maulana Hasanuddin", "Sultan Ageng Tirtayasa", "Sultan Haji", "Maulana Yusuf"],
+    "jawaban": 1,
+    "penjelasan": "Sultan Ageng Tirtayasa (1651–1683) adalah sultan Banten yang paling gigih melawan kekuasaan VOC Belanda."
+  }
+]

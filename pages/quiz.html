@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kuis – Kerajaan Islam Nusantara</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <style>
+    body { font-family: Georgia, 'Times New Roman', serif; }
+    [x-cloak] { display: none !important; }
+    .option-btn { transition: all 0.15s ease; }
+    .option-btn:disabled { cursor: not-allowed; }
+  </style>
+</head>
+<body class="bg-[#f8f9fa] text-[#202122]" x-data="quiz()" x-init="init()">
+
+  <!-- NAVBAR -->
+  <nav class="bg-white border-b border-[#a2a9b1] sticky top-0 z-50 shadow-sm">
+    <div class="max-w-4xl mx-auto px-4">
+      <div class="flex items-center justify-between h-14">
+        <div class="flex items-center gap-3">
+          <img src="../assets/logo-removebg.png" alt="Logo" class="h-9 w-9 object-contain" onerror="this.src='../assets/logo.jpg'">
+          <div>
+            <div class="font-bold text-base leading-tight">Kerajaan Islam</div>
+            <div class="text-xs text-gray-500 leading-tight">Nusantara</div>
+          </div>
+        </div>
+        <div class="hidden md:flex items-center gap-1">
+          <a href="../index.html" class="px-3 py-1.5 text-sm rounded hover:bg-blue-50 text-[#3366cc]">Beranda</a>
+          <a href="quiz.html" class="px-3 py-1.5 text-sm rounded hover:bg-blue-50 text-[#3366cc] font-medium border-b-2 border-[#3366cc]">Kuis</a>
+          <a href="diskusi.html" class="px-3 py-1.5 text-sm rounded hover:bg-blue-50 text-[#3366cc]">Diskusi</a>
+          <a href="matara.html" class="px-3 py-1.5 text-sm rounded hover:bg-blue-50 text-[#3366cc]">MATARA AI</a>
+        </div>
+        <button @click="mobileMenu = !mobileMenu" class="md:hidden p-2 rounded hover:bg-gray-100">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+      <div x-show="mobileMenu" x-cloak class="md:hidden border-t border-gray-200 py-2">
+        <a href="../index.html" class="block px-4 py-2 text-sm text-[#3366cc] hover:bg-blue-50">Beranda</a>
+        <a href="quiz.html" class="block px-4 py-2 text-sm text-[#3366cc] hover:bg-blue-50">Kuis</a>
+        <a href="diskusi.html" class="block px-4 py-2 text-sm text-[#3366cc] hover:bg-blue-50">Diskusi</a>
+        <a href="matara.html" class="block px-4 py-2 text-sm text-[#3366cc] hover:bg-blue-50">MATARA AI</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="max-w-2xl mx-auto px-4 py-8">
+
+    <!-- HEADER -->
+    <div class="bg-white border border-[#a2a9b1] rounded p-5 mb-5">
+      <h1 class="text-2xl font-bold text-[#202122] border-b border-[#a2a9b1] pb-2 mb-2">Kuis Kerajaan Islam Nusantara</h1>
+      <p class="text-sm text-gray-600">Uji pengetahuanmu tentang kerajaan Islam di Indonesia. Setiap sesi menampilkan <strong>5 soal acak</strong> dari 15 pertanyaan yang tersedia.</p>
+    </div>
+
+    <!-- ADS: LEADERBOARD -->
+    <div class="mb-5 flex justify-center">
+      <div class="w-full max-w-[728px] h-[90px] bg-gray-100 border border-dashed border-gray-300 rounded flex items-center justify-center text-xs text-gray-400">
+        <!-- Ganti dengan kode iklan -->
+        Iklan 728×90
+      </div>
+    </div>
+
+    <!-- LOADING -->
+    <div x-show="loading" class="bg-white border border-[#a2a9b1] rounded p-8 text-center text-gray-400">
+      Memuat soal...
+    </div>
+
+    <!-- START SCREEN -->
+    <div x-show="!loading && phase === 'start'" x-cloak class="bg-white border border-[#a2a9b1] rounded p-6 text-center">
+      <div class="text-5xl mb-4">🎯</div>
+      <h2 class="text-xl font-bold mb-2">Siap Memulai Kuis?</h2>
+      <p class="text-sm text-gray-600 mb-6">Kamu akan mendapat 5 soal acak. Setiap jawaban benar bernilai 1 poin.</p>
+      <button @click="startQuiz()" class="bg-[#3366cc] text-white px-6 py-2.5 rounded font-medium hover:bg-blue-700 transition-colors">
+        Mulai Kuis
+      </button>
+    </div>
+
+    <!-- QUIZ SCREEN -->
+    <div x-show="phase === 'quiz'" x-cloak>
+      <!-- Progress -->
+      <div class="bg-white border border-[#a2a9b1] rounded p-4 mb-4">
+        <div class="flex justify-between items-center mb-2 text-sm">
+          <span class="text-gray-600">Soal <strong x-text="currentIndex + 1"></strong> dari <strong x-text="questions.length"></strong></span>
+          <span class="text-[#3366cc] font-medium">Skor: <span x-text="score"></span></span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-2">
+          <div class="bg-[#3366cc] h-2 rounded-full transition-all duration-300" :style="`width: ${((currentIndex) / questions.length) * 100}%`"></div>
+        </div>
+      </div>
+
+      <!-- Soal -->
+      <div class="bg-white border border-[#a2a9b1] rounded p-5 mb-4">
+        <p class="font-semibold text-[#202122] mb-4 text-base leading-relaxed" x-text="currentQ?.soal"></p>
+
+        <div class="space-y-2">
+          <template x-for="(pilihan, idx) in currentQ?.pilihan" :key="idx">
+            <button
+              @click="answer(idx)"
+              :disabled="answered"
+              class="option-btn w-full text-left px-4 py-3 rounded border text-sm"
+              :class="{
+                'border-[#a2a9b1] hover:border-[#3366cc] hover:bg-blue-50': !answered,
+                'border-green-500 bg-green-50 text-green-800': answered && idx === currentQ.jawaban,
+                'border-red-400 bg-red-50 text-red-700': answered && idx === selectedAnswer && idx !== currentQ.jawaban,
+                'border-[#a2a9b1] bg-gray-50 text-gray-400': answered && idx !== currentQ.jawaban && idx !== selectedAnswer
+              }"
+            >
+              <span class="font-medium mr-2" x-text="['A', 'B', 'C', 'D'][idx] + '.'"></span>
+              <span x-text="pilihan"></span>
+              <span x-show="answered && idx === currentQ.jawaban" class="ml-2">✓</span>
+              <span x-show="answered && idx === selectedAnswer && idx !== currentQ.jawaban" class="ml-2">✗</span>
+            </button>
+          </template>
+        </div>
+
+        <!-- Penjelasan -->
+        <div x-show="answered" x-cloak class="mt-4 p-3 rounded border text-sm"
+          :class="isCorrect ? 'bg-green-50 border-green-300 text-green-800' : 'bg-red-50 border-red-300 text-red-800'">
+          <strong x-text="isCorrect ? '✓ Benar!' : '✗ Salah!'"></strong>
+          <span x-text="' ' + currentQ?.penjelasan"></span>
+        </div>
+      </div>
+
+      <!-- Next Button -->
+      <div x-show="answered" x-cloak class="text-right">
+        <button @click="nextQuestion()" class="bg-[#3366cc] text-white px-5 py-2 rounded font-medium hover:bg-blue-700 transition-colors text-sm">
+          <span x-text="currentIndex < questions.length - 1 ? 'Soal Berikutnya →' : 'Lihat Hasil →'"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- RESULT SCREEN -->
+    <div x-show="phase === 'result'" x-cloak class="bg-white border border-[#a2a9b1] rounded p-6">
+      <h2 class="text-xl font-bold text-[#202122] border-b border-[#a2a9b1] pb-2 mb-4">Hasil Kuis</h2>
+
+      <div class="text-center mb-6">
+        <div class="text-6xl mb-3" x-text="score >= 4 ? '🏆' : score >= 3 ? '👍' : score >= 2 ? '📚' : '💪'"></div>
+        <div class="text-4xl font-bold text-[#3366cc]" x-text="score + ' / ' + questions.length"></div>
+        <div class="text-gray-600 mt-1 text-sm" x-text="getGrade()"></div>
+      </div>
+
+      <!-- Review Jawaban -->
+      <div class="space-y-3 mb-6">
+        <h3 class="font-bold text-sm text-[#54595d] uppercase tracking-wide">Review Jawaban</h3>
+        <template x-for="(q, i) in questions" :key="i">
+          <div class="border border-[#a2a9b1] rounded p-3 text-sm">
+            <div class="flex gap-2 items-start">
+              <span x-text="userAnswers[i] === q.jawaban ? '✓' : '✗'" :class="userAnswers[i] === q.jawaban ? 'text-green-600' : 'text-red-500'" class="font-bold flex-shrink-0 mt-0.5"></span>
+              <div>
+                <p class="font-medium text-[#202122]" x-text="(i+1) + '. ' + q.soal"></p>
+                <p class="text-gray-500 text-xs mt-0.5">Jawaban: <span class="text-green-700 font-medium" x-text="q.pilihan[q.jawaban]"></span></p>
+                <p x-show="userAnswers[i] !== q.jawaban" class="text-red-500 text-xs">Pilihanmu: <span x-text="q.pilihan[userAnswers[i]] || '-'"></span></p>
+              </div>
+            </div>
+          </div>
+        </template>
+      </div>
+
+      <!-- ADS: BAWAH RESULT -->
+      <div class="mt-5 flex justify-center">
+        <div class="w-full max-w-[728px] h-[90px] bg-gray-100 border border-dashed border-gray-300 rounded flex items-center justify-center text-xs text-gray-400">
+          <!-- Ganti dengan kode iklan -->
+          Iklan 728×90
+        </div>
+      </div>
+
+      <div class="flex gap-3 flex-wrap mt-4">
+        <button @click="startQuiz()" class="bg-[#3366cc] text-white px-5 py-2 rounded font-medium hover:bg-blue-700 text-sm">Ulangi Kuis</button>
+        <a href="../index.html" class="border border-[#3366cc] text-[#3366cc] px-5 py-2 rounded font-medium hover:bg-blue-50 text-sm">Kembali ke Beranda</a>
+        <a href="matara.html" class="border border-gray-300 text-gray-600 px-5 py-2 rounded font-medium hover:bg-gray-50 text-sm">Tanya MATARA AI</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-t border-[#a2a9b1] mt-8">
+    <div class="max-w-4xl mx-auto px-4 py-4 text-center text-xs text-gray-500">
+      <p>Dibuat untuk Tugas Informatika & Sejarah · <strong>SMK IT Smart Informatika Surakarta</strong></p>
+    </div>
+  </footer>
+
+  <script src="../js/quiz.js"></script>
+</body>
+</html>

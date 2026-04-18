@@ -1,0 +1,157 @@
+{
+  "judul_materi": "Sejarah Kadipaten Pakualaman",
+  "data": [
+    {
+      "id": 1,
+      "topik": "Latar Belakang Berdirinya Kadipaten Pakualaman",
+      "detail": [
+        {
+          "sub_topik": "Sejarah Berdirinya",
+          "deskripsi": "Kadipaten Pakualaman didirikan pada tahun 1813 sebagai hasil kebijakan pemerintah kolonial Inggris di Jawa."
+        },
+        {
+          "sub_topik": "Konflik di Kesultanan Yogyakarta",
+          "deskripsi": "Pembentukan Pakualaman berawal dari konflik internal di Kesultanan Yogyakarta, terutama perebutan kekuasaan dan ketegangan antara pihak istana."
+        },
+        {
+          "sub_topik": "Campur Tangan Inggris",
+          "deskripsi": "Inggris yang saat itu menguasai Jawa ikut campur dalam konflik tersebut dan memanfaatkan situasi untuk memperkuat pengaruhnya."
+        },
+        {
+          "sub_topik": "Peran Thomas Stamford Raffles",
+          "deskripsi": "Thomas Stamford Raffles sebagai penguasa Inggris di Jawa berperan penting dalam mendirikan Pakualaman dengan mengangkat Paku Alam I sebagai penguasa, sebagai bagian dari strategi politik untuk mengendalikan wilayah Yogyakarta."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "topik": "Tokoh Pendiri",
+      "detail": [
+        {
+          "sub_topik": "Biografi Paku Alam I",
+          "deskripsi": "Paku Alam I (Raden Mas Notokusumo) adalah pendiri Kadipaten Pakualaman yang diangkat pada tahun 1813. Ia dikenal sebagai tokoh bangsawan yang memiliki pengaruh dan peran penting dalam pemerintahan di Yogyakarta."
+        },
+        {
+          "sub_topik": "Hubungan dengan Kesultanan Yogyakarta",
+          "deskripsi": "Paku Alam I masih memiliki hubungan keluarga dengan Kesultanan Yogyakarta dan sebelumnya merupakan bagian dari lingkungan istana."
+        },
+        {
+          "sub_topik": "Alasan Politik Pembentukan",
+          "deskripsi": "Pembentukan Kadipaten Pakualaman merupakan strategi politik Inggris untuk mengurangi kekuasaan Sultan Yogyakarta serta memperkuat kontrol kolonial dengan membagi kekuasaan di wilayah tersebut."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "topik": "Status dan Kedudukan",
+      "detail": [
+        {
+          "sub_topik": "Kadipaten (Bukan Kerajaan Penuh)",
+          "deskripsi": "Pakualaman berstatus sebagai kadipaten, sehingga kedudukannya berada di bawah kerajaan dan tidak memiliki kedaulatan penuh seperti kesultanan."
+        },
+        {
+          "sub_topik": "Di Bawah Pengaruh Yogyakarta dan Kolonial",
+          "deskripsi": "Secara politik, Pakualaman berada dalam lingkungan Kesultanan Yogyakarta, namun juga sangat dipengaruhi oleh kekuatan kolonial (Inggris kemudian Belanda)."
+        },
+        {
+          "sub_topik": "Otonomi Terbatas",
+          "deskripsi": "Pakualaman memiliki hak untuk mengatur pemerintahan internalnya, tetapi kewenangannya terbatas dan tetap berada di bawah pengawasan kekuasaan yang lebih besar."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "topik": "Sistem Pemerintahan Pakualaman",
+      "detail": [
+        {
+          "sub_topik": "Struktur Pemerintahan",
+          "deskripsi": "Pemerintahan Pakualaman dipimpin oleh Adipati (Paku Alam) sebagai kepala. Dalam pelaksanaannya dibantu oleh patih, pejabat istana, serta abdi dalem yang menjalankan administrasi dan urusan pemerintahan."
+        },
+        {
+          "sub_topik": "Peran Adipati (Paku Alam)",
+          "deskripsi": "Paku Alam berperan sebagai pemimpin tertinggi yang mengatur pemerintahan, menjaga stabilitas wilayah, serta menjadi penghubung dengan kekuasaan yang lebih besar seperti Kesultanan Yogyakarta dan pemerintah kolonial."
+        },
+        {
+          "sub_topik": "Hubungan dengan Belanda dan Inggris",
+          "deskripsi": "Sejak berdiri, Pakualaman memiliki hubungan politik dengan kekuatan kolonial. Awalnya dibentuk oleh Inggris, kemudian berada di bawah pengaruh Belanda, dengan sistem kerja sama namun tetap dalam pengawasan kolonial."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "topik": "Perkembangan di Masa Kolonial",
+      "detail": [
+        {
+          "sub_topik": "Peran dalam Sistem Kolonial",
+          "deskripsi": "Pakualaman berperan sebagai pemerintahan lokal yang mendukung sistem kolonial, membantu menjaga ketertiban serta menjalankan kebijakan yang ditetapkan oleh Belanda."
+        },
+        {
+          "sub_topik": "Adaptasi terhadap Kekuasaan Belanda",
+          "deskripsi": "Pakualaman menyesuaikan sistem pemerintahan dan administrasi dengan pola kolonial, termasuk dalam bidang birokrasi dan ekonomi, sehingga tetap dapat bertahan di bawah kekuasaan Belanda."
+        },
+        {
+          "sub_topik": "Stabilitas Politik",
+          "deskripsi": "Dibandingkan masa konflik sebelumnya di Yogyakarta, keberadaan Pakualaman membantu menciptakan stabilitas politik karena kekuasaan menjadi lebih terbagi dan terkendali."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "topik": "Budaya dan Warisan",
+      "detail": [
+        {
+          "sub_topik": "Tradisi dan Budaya Istana Pakualaman",
+          "deskripsi": "Budaya istana Pakualaman mencerminkan tradisi Jawa yang kental, dengan tata krama, upacara adat, dan nilai kesopanan yang dijaga dalam kehidupan istana."
+        },
+        {
+          "sub_topik": "Seni Tari dan Adat Jawa",
+          "deskripsi": "Pakualaman memiliki kekayaan seni tari klasik Jawa serta musik gamelan. Berbagai adat dan tradisi istana tetap dilestarikan melalui upacara-upacara budaya."
+        },
+        {
+          "sub_topik": "Peninggalan",
+          "deskripsi": "Salah satu peninggalan penting adalah Puro Pakualaman di Yogyakarta, yang menjadi pusat pemerintahan sekaligus simbol sejarah dan budaya Pakualaman."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "topik": "Perbandingan",
+      "detail": [
+        {
+          "sub_topik": "Pakualaman vs Kesultanan Yogyakarta",
+          "deskripsi": "Pakualaman memiliki wilayah dan kekuasaan lebih kecil serta dipimpin oleh Adipati (Paku Alam), sedangkan Kesultanan Yogyakarta adalah kerajaan besar yang dipimpin Sultan dengan kedudukan lebih tinggi dan wilayah lebih luas."
+        },
+        {
+          "sub_topik": "Pakualaman vs Kadipaten Mangkunegaran",
+          "deskripsi": "Keduanya sama-sama kadipaten kecil dengan otonomi terbatas, tetapi Pakualaman terbentuk karena campur tangan Inggris di Yogyakarta, sedangkan Mangkunegaran lahir dari konflik dan perlawanan terhadap VOC di Surakarta."
+        },
+        {
+          "sub_topik": "Persamaan",
+          "deskripsi": "Sama-sama merupakan kadipaten dengan wilayah kecil, memiliki otonomi terbatas, dan berada di bawah pengaruh kekuatan kolonial."
+        },
+        {
+          "sub_topik": "Perbedaan",
+          "deskripsi": "Perbedaannya terletak pada asal-usul politik dan pengaruh kolonial: Pakualaman dibentuk oleh Inggris sebagai strategi politik di Yogyakarta, sementara Mangkunegaran terbentuk melalui perjuangan dan kemudian berada di bawah pengaruh Belanda."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "topik": "Inti Besar Pakualaman",
+      "detail": [
+        {
+          "sub_topik": "Lahir dari Intervensi Asing",
+          "deskripsi": "Pakualaman terbentuk pada masa kekuasaan Inggris di Jawa, khususnya melalui kebijakan Thomas Stamford Raffles."
+        },
+        {
+          "sub_topik": "Strategi “Pecah Kekuasaan”",
+          "deskripsi": "Pembentukannya merupakan bagian dari strategi politik untuk membagi kekuasaan di Kesultanan Yogyakarta agar lebih mudah dikendalikan."
+        },
+        {
+          "sub_topik": "Kecil tapi Berperan Penting",
+          "deskripsi": "Meskipun wilayahnya kecil dan kekuasaannya terbatas, Pakualaman tetap memiliki peran penting dalam menjaga budaya, tradisi, dan stabilitas di Yogyakarta."
+        }
+      ]
+    }
+  ]
+}
