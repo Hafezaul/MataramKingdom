@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import fetch from "node-fetch";
 import { initializeApp } from "firebase/app";
-import { getDatabase, ref, push, onValue, serverTimestamp } from "firebase/database";
+import { getDatabase, ref, push, onValue } from "firebase/database";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -116,9 +116,6 @@ app.post("/api/matara", async (req, res) => {
     res.status(500).json({ error: "Gagal menghubungi AI: " + err.message });
   }
 });
-
-app.use(express.static("."));
-app.use((req, res) => res.status(404).sendFile("404.html", { root: "." }));
 
 if (process.env.NODE_ENV !== "production") {
   const PORT = process.env.PORT || 3000;
