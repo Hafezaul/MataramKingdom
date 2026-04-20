@@ -117,7 +117,12 @@ app.post("/api/matara", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 3000;
 app.use(express.static("."));
 app.use((req, res) => res.status(404).sendFile("404.html", { root: "." }));
-app.listen(PORT, () => console.log(`Server berjalan di http://localhost:${PORT}`));
+
+if (process.env.NODE_ENV !== "production") {
+  const PORT = process.env.PORT || 3000;
+  app.listen(PORT, () => console.log(`Server berjalan di http://localhost:${PORT}`));
+}
+
+export default app;
