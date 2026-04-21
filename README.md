@@ -16,12 +16,9 @@ Web aplikasi edukatif tentang Kerajaan Islam di Nusantara. Dibuat sebagai tugas 
 
 ## Kerajaan yang Dibahas
 
-- Kesultanan Mataram Islam (1586–1755)
-- Kesultanan Demak (1475–1554)
-- Kesultanan Aceh Darussalam (1496–1903)
-- Kesultanan Ternate (1257–sekarang)
-- Kesultanan Banten (1526–1813)
-- Kesultanan Gowa-Tallo (1300–1946)
+- Kesultanan Mataram Islam
+- Kadipaten Mangkunegara
+- Kadipaten Pakualam
 
 ---
 
@@ -119,11 +116,11 @@ MataramKingdom/
 
 | Nama | Peran |
 |---|---|
-| Faris | Developer |
-| Fikri | Developer |
-| Dzikrul | Developer |
-| Rizal | Developer |
-| Nabil | Desainer |
+| Faris | Product Management & Developer |
+| Fikri | Scientific Research & Developer |
+| Dzikrul | Management & Designer |
+| Rizal | Scientific Research & QnA  |
+| Nabil | Designer & Management |
 
 > Tugas Informatika & Sejarah · SMK IT Smart Informatika Surakarta
 
