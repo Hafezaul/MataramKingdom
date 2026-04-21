@@ -1,6 +1,6 @@
 # 🕌 Kerajaan Islam Nusantara
 
-Web aplikasi edukatif tentang Kerajaan Islam di Nusantara. Dibuat sebagai tugas mata pelajaran **Informatika & Sejarah** — SMK IT Smart Informatika Surakarta.
+Web aplikasi edukatif tentang Kerajaan Islam Mataram. Dibuat sebagai tugas mata pelajaran **Informatika & Sejarah** — SMK IT Smart Informatika Surakarta.
 
 <img src="./assets/web.png">
 ---
@@ -16,9 +16,9 @@ Web aplikasi edukatif tentang Kerajaan Islam di Nusantara. Dibuat sebagai tugas 
 
 ## Kerajaan yang Dibahas
 
-- Kesultanan Mataram Islam
-- Kadipaten Mangkunegara
+- Kesultanan Mataram Islam (1586–1755)
 - Kadipaten Pakualam
+- Kadipaten Mangkunegara
 
 ---
 
@@ -117,10 +117,10 @@ MataramKingdom/
 | Nama | Peran |
 |---|---|
 | Faris | Product Management & Developer |
-| Fikri | Scientific Research & Developer |
-| Dzikrul | Management & Designer |
-| Rizal | Scientific Research & QnA  |
-| Nabil | Designer & Management |
+| Fikri | Riset & Developer |
+| Dzikrul | Designer & Management|
+| Rizal | Content Writer & Riset |
+| Nabil | Head of Designer & UI/UX|
 
 > Tugas Informatika & Sejarah · SMK IT Smart Informatika Surakarta
 

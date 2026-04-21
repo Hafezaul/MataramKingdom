@@ -1,0 +1,17 @@
+body { font-family: Georgia, 'Times New Roman', serif; }
+[x-cloak] { display: none !important; }
+
+.toc-link { font-size: 0.8125rem; color: #3366cc; }
+.toc-link:hover { text-decoration: underline; }
+
+.tag-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 9999px;
+  font-weight: 500;
+}
+
+.kingdom-card { transition: box-shadow 0.15s ease, border-color 0.15s ease; }
+
+.prose-wiki p { margin-bottom: 0.75rem; line-height: 1.65; }
