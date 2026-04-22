@@ -7,9 +7,9 @@ function matara() {
     mobileMenu: false,
     suggestions: [
       'Siapa Sultan Agung dari Mataram Islam?',
-      'Apa peran Wali Songo dalam Kesultanan Demak?',
-      'Mengapa Aceh disebut Serambi Mekkah?',
-      'Ceritakan tentang Sultan Hasanuddin dari Gowa',
+      'Apa peran Kasunanan dalam memerangi Belanda?',
+      'Mengapa Mataram Pecah?',
+      'Ceritakan tentang Raden Mas Said.',
       'Apa itu Perjanjian Giyanti?'
     ],
 

@@ -52,7 +52,7 @@
     </div>
   </nav>
 
-  <div class="max-w-3xl mx-auto px-4 py-6">
+  <div class="max-w-4xl mx-auto px-2 sm:px-4 py-4 sm:py-6">
 
     <!-- HEADER -->
     <div class="bg-white border border-[#a2a9b1] rounded p-5 mb-5">
@@ -67,7 +67,7 @@
           <span class="text-xs text-gray-500">Online</span>
         </div>
       </div>
-      <p class="text-sm text-gray-600">Tanyakan apa saja tentang kerajaan Islam di Indonesia — Mataram Islam, Demak, Aceh, Ternate, Banten, Gowa-Tallo, dan lainnya.</p>
+      <p class="text-sm text-gray-600">Tanyakan apa saja tentang kerajaan Mataram Islam</p>
     </div>
 
     <!-- ADS: LEADERBOARD -->
@@ -79,14 +79,14 @@
     </div> -->
 
     <!-- CHAT AREA -->
-    <div class="bg-white border border-[#a2a9b1] rounded mb-4 flex flex-col" style="height: 420px;">
-      <div id="chat-container" class="flex-1 overflow-y-auto p-4 space-y-4">
+    <div class="bg-white border border-[#a2a9b1] rounded mb-4 flex flex-col" style="height: 480px;">
+      <div id="chat-container" class="flex-1 overflow-y-auto p-3 sm:p-4 space-y-3 sm:space-y-4">
 
         <!-- Welcome message -->
         <div class="chat-bubble flex gap-3">
           <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[#3366cc] to-indigo-700 flex items-center justify-center text-white text-xs font-bold flex-shrink-0 mt-0.5">M</div>
-          <div class="bg-[#eaf3fb] border border-[#c8d8f0] rounded-lg px-4 py-3 max-w-sm text-sm text-gray-700 leading-relaxed">
-            Assalamu'alaikum! Saya <strong>MATARA</strong>, asisten AI yang siap membantu kamu belajar tentang kerajaan Islam di Nusantara. Silakan ajukan pertanyaanmu! 🕌
+          <div class="bg-[#eaf3fb] border border-[#c8d8f0] rounded-lg px-4 py-3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg text-sm text-gray-700 leading-relaxed">
+            Assalamu'alaikum! Saya <strong>MATARA</strong>, asisten AI yang siap membantu kamu belajar tentang kerajaan Islam Mataram. Silakan ajukan pertanyaanmu! 🕌
           </div>
         </div>
 
@@ -97,7 +97,7 @@
             <div x-show="msg.role === 'ai'" class="w-8 h-8 rounded-full bg-gradient-to-br from-[#3366cc] to-indigo-700 flex items-center justify-center text-white text-xs font-bold flex-shrink-0 mt-0.5">M</div>
 
             <div
-              class="rounded-lg px-4 py-3 text-sm leading-relaxed max-w-sm"
+              class="rounded-lg px-4 py-3 text-sm leading-relaxed max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg"
               :class="msg.role === 'user'
                 ? 'bg-[#3366cc] text-white'
                 : 'bg-[#eaf3fb] border border-[#c8d8f0] text-gray-700'"
@@ -132,37 +132,37 @@
     </div>
 
     <!-- INPUT AREA -->
-    <div class="bg-white border border-[#a2a9b1] rounded p-3">
+    <div class="bg-white border border-[#a2a9b1] rounded p-3 sm:p-4">
       <div x-show="errorMsg" x-cloak class="bg-red-50 border border-red-300 text-red-700 text-xs px-3 py-2 rounded mb-3" x-text="errorMsg"></div>
-      <div class="flex gap-2">
+      <div class="flex gap-2 flex-col sm:flex-row">
         <textarea
           x-model="input"
           @keydown.enter.prevent="if(!$event.shiftKey) sendMessage()"
           placeholder="Tanyakan tentang kerajaan Islam Nusantara... (Enter untuk kirim)"
           rows="2"
-          class="flex-1 border border-[#a2a9b1] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#3366cc] focus:ring-1 focus:ring-[#3366cc] resize-none"
+          class="flex-1 border border-[#a2a9b1] rounded px-3 py-2 text-sm focus:outline-none focus:border-[#3366cc] focus:ring-1 focus:ring-[#3366cc] resize-none w-full"
           :disabled="loading"
         ></textarea>
         <button
           @click="sendMessage()"
           :disabled="loading || !input.trim()"
-          class="bg-[#3366cc] text-white px-4 py-2 rounded font-medium hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex-shrink-0 self-end"
+          class="bg-[#3366cc] text-white px-4 py-2 rounded font-medium hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex-shrink-0 sm:self-end h-fit"
         >
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/>
           </svg>
         </button>
       </div>
-      <p class="text-xs text-gray-400 mt-1.5">Shift+Enter untuk baris baru · MATARA fokus pada sejarah Islam Nusantara</p>
+      <p class="text-xs text-gray-400 mt-1.5 text-center sm:text-left">Shift+Enter untuk baris baru · MATARA fokus pada sejarah Islam Nusantara</p>
     </div>
 
     <!-- ADS: BAWAH INPUT -->
-    <div class="mt-4 flex justify-center">
+    <!-- <div class="mt-4 flex justify-center">
       <div class="w-full max-w-[728px] h-[90px] bg-gray-100 border border-dashed border-gray-300 rounded flex items-center justify-center text-xs text-gray-400">
-        <!-- Ganti dengan kode iklan -->
+         Ganti dengan kode iklan
         Iklan 728×90
       </div>
-    </div>
+    </div> -->
 
     <!-- Clear Chat -->
     <div class="text-right mt-2" x-show="messages.length > 0" x-cloak>
