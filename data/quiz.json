@@ -2,106 +2,111 @@
   {
     "id": 1,
     "soal": "Siapakah pendiri Kesultanan Mataram Islam?",
-    "pilihan": ["Sultan Agung", "Panembahan Senopati", "Amangkurat I", "Raden Patah"],
+    "pilihan": ["Sultan Agung", "Panembahan Senopati", "Ki Ageng Pemanahan", "Amangkurat I"],
     "jawaban": 1,
-    "penjelasan": "Panembahan Senopati adalah pendiri Kesultanan Mataram Islam sekitar tahun 1586."
+    "penjelasan": "Panembahan Senopati (nama asli Sutawijaya) adalah pendiri Kesultanan Mataram Islam sekitar tahun 1586, putra dari Ki Ageng Pemanahan."
   },
   {
     "id": 2,
-    "soal": "Perjanjian apa yang memecah Mataram Islam menjadi dua kerajaan pada 1755?",
-    "pilihan": ["Perjanjian Salatiga", "Perjanjian Giyanti", "Perjanjian Bongaya", "Perjanjian Batavia"],
-    "jawaban": 1,
-    "penjelasan": "Perjanjian Giyanti (1755) memecah Mataram Islam menjadi Kesultanan Yogyakarta dan Kasunanan Surakarta."
+    "soal": "Di mana letak ibu kota pertama Kesultanan Mataram Islam?",
+    "pilihan": ["Kartasura", "Plered", "Kotagede", "Karta"],
+    "jawaban": 2,
+    "penjelasan": "Kotagede (Yogyakarta) adalah ibu kota pertama Mataram Islam yang dibangun oleh Ki Ageng Pemanahan dan dikembangkan oleh Panembahan Senopati."
   },
   {
     "id": 3,
-    "soal": "Kerajaan Islam pertama di Pulau Jawa adalah?",
-    "pilihan": ["Mataram Islam", "Banten", "Demak", "Cirebon"],
-    "jawaban": 2,
-    "penjelasan": "Kesultanan Demak adalah kerajaan Islam pertama di Pulau Jawa, didirikan sekitar 1475 oleh Raden Patah."
+    "soal": "Sultan Agung menyerang Batavia sebanyak berapa kali?",
+    "pilihan": ["1 kali", "2 kali", "3 kali", "4 kali"],
+    "jawaban": 1,
+    "penjelasan": "Sultan Agung menyerang Batavia dua kali, yaitu pada tahun 1628 dan 1629, untuk mengusir VOC yang dianggap mengancam kekuasaan Mataram."
   },
   {
     "id": 4,
-    "soal": "Sultan Agung dari Mataram Islam menyerang Batavia sebanyak berapa kali?",
-    "pilihan": ["1 kali", "2 kali", "3 kali", "4 kali"],
+    "soal": "Perjanjian apa yang memecah Mataram Islam menjadi Kasunanan Surakarta dan Kesultanan Yogyakarta?",
+    "pilihan": ["Perjanjian Salatiga", "Perjanjian Giyanti", "Perjanjian Bongaya", "Perjanjian Batavia"],
     "jawaban": 1,
-    "penjelasan": "Sultan Agung menyerang Batavia dua kali, yaitu pada tahun 1628 dan 1629."
+    "penjelasan": "Perjanjian Giyanti (1755) membagi Mataram Islam menjadi Kasunanan Surakarta dan Kesultanan Yogyakarta."
   },
   {
     "id": 5,
-    "soal": "Kesultanan Aceh dikenal dengan julukan?",
-    "pilihan": ["Mutiara dari Timur", "Serambi Mekkah", "Tanah Rencong", "Bumi Iskandar Muda"],
+    "soal": "Salah satu peninggalan budaya Sultan Agung yang masih digunakan masyarakat Jawa hingga kini adalah?",
+    "pilihan": ["Aksara Jawa", "Kalender Jawa", "Wayang Kulit", "Gamelan"],
     "jawaban": 1,
-    "penjelasan": "Aceh dijuluki 'Serambi Mekkah' karena perannya sebagai pusat pendidikan dan penyebaran Islam."
+    "penjelasan": "Sultan Agung menciptakan Kalender Jawa, perpaduan antara kalender Islam (Hijriyah) dan kalender Jawa (Saka), yang masih digunakan sebagian masyarakat Jawa."
   },
   {
     "id": 6,
-    "soal": "Siapakah Sultan Aceh yang mencapai puncak kejayaan pada 1607–1636?",
-    "pilihan": ["Ali Mughayat Syah", "Sultan Iskandar Muda", "Sultanah Safiatuddin", "Sultan Iskandar Tsani"],
+    "soal": "Pemberontakan siapakah yang mempercepat kemunduran Mataram Islam setelah Sultan Agung?",
+    "pilihan": ["Pemberontakan Diponegoro", "Pemberontakan Trunajaya", "Pemberontakan Untung Surapati", "Pemberontakan Mangkubumi"],
     "jawaban": 1,
-    "penjelasan": "Sultan Iskandar Muda (1607–1636) adalah masa kejayaan Aceh, menjadi kerajaan terkuat di Asia Tenggara."
+    "penjelasan": "Pemberontakan Trunajaya, dipimpin bangsawan Madura, berhasil merebut beberapa wilayah penting dan memaksa Mataram meminta bantuan VOC."
   },
   {
     "id": 7,
-    "soal": "Kesultanan Ternate terkenal karena menguasai perdagangan?",
-    "pilihan": ["Lada dan emas", "Cengkeh dan pala", "Beras dan gula", "Kopi dan teh"],
-    "jawaban": 1,
-    "penjelasan": "Ternate menguasai perdagangan rempah-rempah terutama cengkeh yang sangat berharga di pasar dunia."
+    "soal": "Kadipaten Mangkunegaran berdiri pada tahun berapa?",
+    "pilihan": ["1745", "1755", "1757", "1813"],
+    "jawaban": 2,
+    "penjelasan": "Kadipaten Mangkunegaran berdiri pada tahun 1757 sebagai hasil dari Perjanjian Salatiga."
   },
   {
     "id": 8,
-    "soal": "Sultan Hasanuddin dari Gowa-Tallo dijuluki?",
-    "pilihan": ["Singa dari Barat", "Ayam Jantan dari Timur", "Harimau Sulawesi", "Elang Nusantara"],
+    "soal": "Siapakah pendiri Kadipaten Mangkunegaran yang dikenal dengan julukan Pangeran Sambernyawa?",
+    "pilihan": ["Mangkunegara II", "Raden Mas Said", "Pangeran Mangkubumi", "Pakubuwono III"],
     "jawaban": 1,
-    "penjelasan": "Sultan Hasanuddin dijuluki 'Ayam Jantan dari Timur' karena keberaniannya melawan VOC Belanda."
+    "penjelasan": "Raden Mas Said, dijuluki Pangeran Sambernyawa karena keberaniannya di medan perang, adalah pendiri Mangkunegaran yang bergelar Mangkunegara I."
   },
   {
     "id": 9,
-    "soal": "Masjid Agung Demak dibangun pada masa pemerintahan siapa?",
-    "pilihan": ["Sultan Trenggana", "Pati Unus", "Raden Patah", "Sunan Kalijaga"],
-    "jawaban": 2,
-    "penjelasan": "Masjid Agung Demak dibangun pada masa Raden Patah dengan bantuan Wali Songo, terutama Sunan Kalijaga."
+    "soal": "Perjanjian apa yang mengakui berdirinya Kadipaten Mangkunegaran?",
+    "pilihan": ["Perjanjian Giyanti", "Perjanjian Salatiga", "Perjanjian Bongaya", "Perjanjian Batavia"],
+    "jawaban": 1,
+    "penjelasan": "Perjanjian Salatiga (1757) antara Kasunanan Surakarta, VOC, dan Raden Mas Said mengakui berdirinya Kadipaten Mangkunegaran."
   },
   {
     "id": 10,
-    "soal": "Perjanjian Bongaya (1667) merugikan kerajaan mana?",
-    "pilihan": ["Mataram Islam", "Banten", "Aceh", "Gowa-Tallo"],
-    "jawaban": 3,
-    "penjelasan": "Perjanjian Bongaya (1667) sangat merugikan Kesultanan Gowa-Tallo setelah kalah dari VOC Belanda."
+    "soal": "Pasukan militer resmi milik Kadipaten Mangkunegaran disebut?",
+    "pilihan": ["Legiun Mangkunegaran", "Prajurit Sambernyawa", "Pasukan Mataram", "Tentara Praja"],
+    "jawaban": 0,
+    "penjelasan": "Legiun Mangkunegaran adalah pasukan militer resmi yang dibentuk sejak Mangkunegara I dan dimodernisasi dengan sistem militer Eropa pada masa Mangkunegara IV."
   },
   {
     "id": 11,
-    "soal": "Siapakah pendiri Kesultanan Banten?",
-    "pilihan": ["Maulana Hasanuddin", "Sultan Ageng Tirtayasa", "Syarif Hidayatullah", "Fatahillah"],
-    "jawaban": 2,
-    "penjelasan": "Kesultanan Banten didirikan oleh Syarif Hidayatullah (Sunan Gunung Jati), salah satu Wali Songo."
+    "soal": "Kadipaten Pakualaman didirikan pada tahun berapa?",
+    "pilihan": ["1755", "1757", "1800", "1813"],
+    "jawaban": 3,
+    "penjelasan": "Kadipaten Pakualaman didirikan pada tahun 1813 atas kebijakan pemerintah kolonial Inggris di Jawa."
   },
   {
     "id": 12,
-    "soal": "Wali Songo yang berperan besar dalam pendirian Kesultanan Demak adalah?",
-    "pilihan": ["Sunan Ampel", "Sunan Giri", "Sunan Kalijaga", "Sunan Bonang"],
+    "soal": "Siapakah tokoh kolonial Inggris yang berperan dalam pendirian Kadipaten Pakualaman?",
+    "pilihan": ["Jan Pieterszoon Coen", "Herman Willem Daendels", "Thomas Stamford Raffles", "Cornelis de Houtman"],
     "jawaban": 2,
-    "penjelasan": "Sunan Kalijaga adalah salah satu Wali Songo yang paling berperan dalam penyebaran Islam dan pendirian Demak."
+    "penjelasan": "Thomas Stamford Raffles sebagai penguasa Inggris di Jawa berperan penting dalam mendirikan Pakualaman dengan mengangkat Paku Alam I sebagai penguasa."
   },
   {
     "id": 13,
-    "soal": "Ibu kota awal Kesultanan Mataram Islam adalah?",
-    "pilihan": ["Kartasura", "Plered", "Kotagede", "Karta"],
+    "soal": "Siapakah pendiri Kadipaten Pakualaman yang bergelar Paku Alam I?",
+    "pilihan": ["Raden Mas Said", "Pangeran Mangkubumi", "Raden Mas Notokusumo", "Sultan Hamengkubuwono I"],
     "jawaban": 2,
-    "penjelasan": "Kotagede adalah ibu kota pertama Kesultanan Mataram Islam yang didirikan oleh Panembahan Senopati."
+    "penjelasan": "Raden Mas Notokusumo adalah pendiri Kadipaten Pakualaman yang diangkat pada tahun 1813 dengan gelar Paku Alam I."
   },
   {
     "id": 14,
-    "soal": "Kesultanan Gowa-Tallo resmi memeluk Islam pada tahun?",
-    "pilihan": ["1511", "1570", "1605", "1667"],
-    "jawaban": 2,
-    "penjelasan": "Kesultanan Gowa-Tallo resmi memeluk Islam pada tahun 1605 di bawah Sultan Alauddin."
+    "soal": "Peninggalan bersejarah Kadipaten Mangkunegaran yang masih berdiri di Surakarta adalah?",
+    "pilihan": ["Keraton Surakarta", "Pura Mangkunegaran", "Masjid Agung Surakarta", "Benteng Vastenburg"],
+    "jawaban": 1,
+    "penjelasan": "Pura Mangkunegaran di Surakarta adalah peninggalan penting yang menjadi pusat pemerintahan sekaligus simbol budaya dan sejarah Mangkunegaran."
   },
   {
     "id": 15,
-    "soal": "Sultan Banten yang paling gigih melawan VOC adalah?",
-    "pilihan": ["Maulana Hasanuddin", "Sultan Ageng Tirtayasa", "Sultan Haji", "Maulana Yusuf"],
-    "jawaban": 1,
-    "penjelasan": "Sultan Ageng Tirtayasa (1651–1683) adalah sultan Banten yang paling gigih melawan kekuasaan VOC Belanda."
+    "soal": "Apa persamaan antara Kadipaten Mangkunegaran dan Kadipaten Pakualaman?",
+    "pilihan": [
+      "Keduanya didirikan oleh Inggris",
+      "Keduanya merupakan kerajaan penuh yang berdaulat",
+      "Keduanya adalah kadipaten dengan otonomi terbatas di bawah pengaruh kolonial",
+      "Keduanya didirikan melalui Perjanjian Giyanti"
+    ],
+    "jawaban": 2,
+    "penjelasan": "Mangkunegaran dan Pakualaman sama-sama berstatus kadipaten dengan otonomi terbatas dan berada di bawah pengaruh kekuatan kolonial, bukan kerajaan penuh."
   }
 ]
